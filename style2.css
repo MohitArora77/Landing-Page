@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display:flex;
+    height:190px;
+    font-family:"New Amsterdam", sans-serif;
+    font-size:20px;
+    color: green;
+    padding-right:30px;
+}
+.navbar li{
+    list-style:none;
+    margin:0 42px;
+}
+.firstleft{
+    width:50%;
+    color:white;
+    padding:12px 0;
+}
+.firstright{
+    width:50%;
+    height:50vh;
+
+}
+.section1{
+    height:100%;
+    width:100%;
+    margin:80px
+
+ 
+}
+.btn{
+    padding:14px 22px;
+    background-color: green;
+    font-family:"Caveat", system-ui;
+    font-size: larger;
+    border-radius: 45px;
+    border:2px solid white;
+    cursor: pointer;
+}
+.overflow-x-hidden{
+    overflow-x: hidden;
+
+}
+img{
+    width: 16px;
+    padding:0px;
+    opacity: 0.8;
+    height: 110%;
+
+}
+
+.text-center{
+    text-align:center ;
+    color: green;
+    font-size: 25px;
+}
+.section2{
+    padding-left:60px;
+    padding-right:60px ;
+    margin:60px;
+}
+.section2 h2{
+    font-size:2.5rem;
+}
+.section2 p{
+  color: green;
+}
+.section2{
+    padding: 0 8vw;
+    text-align: center;
+}
+.box{
+    color: green;
+    margin:100px 22px;
+    min-width:16vw;
+    border: 2px solid gray;
+    background-color: white;
+    text-align: center;
+    padding:8px 0;
+    border-radius: 5%;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    margin:12px 20px;
+    color: black;
+}
+.price{
+    font-weight: bolder;
+    font-size:25px;
+}
+.box h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding:15px 0;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+   width: 95%;
+   margin:120px 0;
+   border-collapse: collapse;
+   margin-bottom: 15%;
+}
+.section3 table th {
+   width:15%;
+   border-bottom: 2px solid green;
+   padding:20px;
+}
+ .section3 table td{
+    width:10%;
+    margin:40px 0;
+    border-bottom: 2px solid green;
+ }
+ .section3 table tr{
+    border-bottom:2px solid green;
+    width:20%;
+ }
+.section3 h2{
+    font-size:2.5rem;
+}
+.section3{
+    padding-left:50px;
+    padding-right:50px;
+}
+.section3 h2{
+    padding:30px;
+    margin-top:40px;
+}
+footer{
+    padding:22px;
+    color:green;
+    text-align: center;
+    font-size:23px;
+    padding-bottom:50px;
+}
